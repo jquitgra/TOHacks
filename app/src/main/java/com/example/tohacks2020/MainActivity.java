@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
     /**
      * @param view
      * Start using the app, first turn to the setting page
+     * minor change
      */
     public void StartUsing(View view){
         Intent start = new Intent(this, SettingActivity.class);
