@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">TOHacks2020</string>
     <string name="StartApp">START</string>
+    <string name="Setting_Instruction">This number will help us to unique \n our calculation based on
+        your cleaning \n habit.Please input average number of days \n you clean this room. If click skip,
+        the number \n of days would either be default value of 14 \n days, or the number you set before.
+    </string>
+    <string name="what_to_input">what to input</string>
+    <string name="skip">SKIP</string>
 </resources>

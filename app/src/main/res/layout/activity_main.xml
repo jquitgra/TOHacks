@@ -17,7 +17,7 @@
         android:id="@+id/button"
         android:layout_width="160dp"
         android:layout_height="88dp"
-        android:backgroundTint="#97E5EF"
+        android:backgroundTint="#FFF3CD"
         android:fontFamily="serif-monospace"
         android:onClick="StartUsing"
         android:text="@string/StartApp"
