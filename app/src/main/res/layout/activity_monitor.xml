@@ -7,4 +7,21 @@
     android:background="#EAE7D9"
     tools:context=".MonitorAcctivity">
 
+    <org.opencv.android.JavaCameraView
+        android:id="@+id/CameraView"
+        android:layout_width="371dp"
+        android:layout_height="512dp"
+        android:background="#EAE7D9"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/camera"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="550dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

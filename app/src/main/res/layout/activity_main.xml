@@ -4,12 +4,38 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#EAE7D9"
     tools:context=".MainActivity">
 
-   <org.opencv.android.JavaCameraView
-       android:layout_width="match_parent"
-       android:layout_height="match_parent"
-       android:visibility="visible"
-       android:id="@+id/CameraView"/>
+   <androidx.constraintlayout.widget.Guideline
+       android:id="@+id/start"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       app:layout_constraintGuide_begin="450dp" />
 
+   <Button
+       android:id="@+id/button"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:backgroundTint="#FFF3CD"
+       android:fontFamily="serif-monospace"
+       android:onClick="StartUsing"
+       android:text="@string/StartApp"
+       android:textSize="30sp"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="@+id/start" />
+
+   <ImageView
+       android:id="@+id/imageView"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.0"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:srcCompat="@drawable/enter" />
 </androidx.constraintlayout.widget.ConstraintLayout>
