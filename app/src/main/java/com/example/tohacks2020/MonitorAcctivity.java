@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import org.tensorflow.lite.Interpreter;
 
 public class MonitorAcctivity extends AppCompatActivity {
 
